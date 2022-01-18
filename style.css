@@ -1,0 +1,56 @@
+body{
+    padding: 50px 100px;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d3b36;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    padding: 20px;
+    background-color: #1abc9c;
+}
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+label{
+    font-size: 22px;
+    
+}
+
+@media(max-width: 585px){
+    body{
+        padding: 50px 30px;
+        
+
+    }
+    h1{
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .inp{
+        margin-top: 2px;
+        width: 190px;
+    }
+}
+
+@media(max-width: 350px){
+    .inp{
+        width: 100px;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+
+}
